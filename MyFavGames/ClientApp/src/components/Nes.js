@@ -1,5 +1,4 @@
 ﻿import React from 'react';
-//import nesPic from './images/nes.jpg';
 function Nes() {
     return (
         <div>

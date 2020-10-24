@@ -2,13 +2,13 @@
 /*import { Link } from 'react-router-dom';
 */
 
-export class NesPage extends Component {
-    static displayName = NesPage.name;
+export class SnesPage extends Component {
+    static displayName = SnesPage.name;
 
     render() {
         return (
             <div>
-                <h1 id = "test"> The NES was great! </h1>
+                <h1> The SNES was great! </h1>
                 <h2> Here are the main games for this console </h2>
                 <ol>
                     <li>Super Mario Bros. 3 </li>
@@ -23,4 +23,4 @@ export class NesPage extends Component {
         );
     }// End of Render
 } //End of Component
-export default NesPage;
+export default SnesPage;

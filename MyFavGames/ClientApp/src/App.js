@@ -8,6 +8,7 @@ import { Counter } from './components/Counter';
 
 import './custom.css'
 import NesPage from './components/NesPage';
+import SnesPage from './components/SnesPage';
 
 export default class App extends Component {
   static displayName = App.name;
@@ -19,6 +20,7 @@ export default class App extends Component {
         <Route path='/counter' component={Counter} />
         <Route path='/fetch-data' component={FetchData} />
         <Route path='/NesPage' component={NesPage} />
+        <Route path='/SnesPage' component={SnesPage} />
         </Layout>
      );
   }
