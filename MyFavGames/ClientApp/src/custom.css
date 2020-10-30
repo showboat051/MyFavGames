@@ -16,3 +16,8 @@ code {
 #headline {
     color:red;
 }
+
+#sysHolder {
+    display: flex;
+}
+ 

@@ -2,7 +2,7 @@
 function Snes() {
     return (
         <div>
-            <img src={require('../images/snes.jpg')} style={{height:291, width: 173}} alt="Snes pic" />
+            <img src={require('../images/snes.jpg')} style={{height:173, width: 291}} alt="Snes pic" />
         </div>
     );
 }
