@@ -6,28 +6,39 @@ export class SearchBar extends Component {
 
     state = {
         loading: true,
-        game: null
+        game: []
     }
 
     async componentDidMount() {
-        
         const url = "https://api.rawg.io/api/platforms?key=abbc22ff4a134bc88501a8419179328a";
         const response = await fetch(url);
         const data = await response.json();
+        this.setState({ game: response.data })
+        let rendRes = data.results.map(sys => {
+            return (
+                <div key={sys.name}>
+                </div>
+                )
+        console.log(rendRes)
+        });
+        
         console.log(data);
         console.log(data.results);
-        let rendRes = data.results.map(sys => {
-            return `${sys.name}`;
-        });
-        console.log(rendRes)
+        this.setState({ game: rendRes });
+        console.log("state", this.state.game);
     }
        // this.setState({game: data.results[0], loading: false})
 
+    buttonClick(e) {
+        e.preventDefault();
+        console.log('clicked');
+    }
     render() {
         return (
             <div>
-                <rendRes />
-            </div>
+                <p>{this.state.game}</p>
+                </div>
+            
         )// end of return
     }// end of render 
 }
