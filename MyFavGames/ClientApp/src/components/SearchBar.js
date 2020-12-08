@@ -16,7 +16,8 @@ export class SearchBar extends Component {
         this.setState({ game: response.data })
         let rendRes = data.results.map(sys => {
             return (
-                <div key={sys.name}>
+                <div
+                    key={sys.name}>
                 </div>
                 )
         console.log(rendRes)
