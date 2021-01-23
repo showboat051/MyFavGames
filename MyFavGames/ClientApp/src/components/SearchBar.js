@@ -9,8 +9,13 @@ export class SearchBar extends Component {
         game: []
     }
 
+   
     async componentDidMount() {
-        const url = "https://api.rawg.io/api/platforms?key=abbc22ff4a134bc88501a8419179328a";
+        // ClientID = 6had8k18ehj4wx3zhyzonyfn4bov1k
+        // secretID =lrykehxibiccfhjyfh16env142d2xb
+        // const url = "https://api.twitch.tv/helix/games"
+       // const url = "https://api.rawg.io/api/platforms?key=abbc22ff4a134bc88501a8419179328a";
+        const url = " https://api.rawg.io/api/games?key=abbc22ff4a134bc88501a8419179328a";
         const response = await fetch(url);
         const data = await response.json();
         this.setState({ game: response.data })
@@ -22,7 +27,7 @@ export class SearchBar extends Component {
                 )
         console.log(rendRes)
         });
-        
+        console.log(rendRes);
         console.log(data);
         console.log(data.results);
         this.setState({ game: rendRes });

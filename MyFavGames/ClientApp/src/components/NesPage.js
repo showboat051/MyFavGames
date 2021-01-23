@@ -11,10 +11,16 @@ export class NesPage extends Component {
                 <h1 id = "test"> The NES was great! </h1>
                 <h2> Here are the main games for this console </h2>
                 <ol>
+
+                    <img src={require('../images/SMB3.png')} alt="Mario3 pic" />
                     <li>Super Mario Bros. 3 </li>
+                    <img src={require('../images/Zelda1.png')} alt="Zelda1 pic" />
                     <li>The Legend of Zelda </li>
+                    <img src={require('../images/Metroid.jpg')} alt="Metroid pic" />
                     <li> Metroid</li>
+                    <img src={require('../images/Mario1.png')} alt="Mario1 pic" />
                     <li> Super Mario Bros. </li>
+                    <img src={require('../images/MTPO.jpg')} alt="MTPO pic" />
                     <li> Mike Tyson's PunchOut</li>
                     <li> Tecmo Super Bowl</li>
                 </ol>

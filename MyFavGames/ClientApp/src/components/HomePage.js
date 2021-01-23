@@ -16,13 +16,13 @@ export class HomePage extends Component {
                 <table id="sysHolder">
                     <thead>
                         <tr>
-                            <th>Number 1 </th>
-                            <th>Number 2 </th>
+                            <th> <Nes />
+                                <Link to="/NesPage"> Nintendo Entertainment System (1985) </Link> </th>
+                            <th><Snes />
+                                <Link to="./SnesPage">Super Nintendo Entertainment System (1991) </Link> </th>
                         </tr>
-                <Nes />
-                <Link to="/NesPage"> Nintendo Entertainment System (1985) </Link>
-                <Snes />
-                        <Link to="./SnesPage">Super Nintendo Entertainment System (1991) </Link>
+               
+                
                         </thead>
                 </table>
                 <SearchBar />
