@@ -20,8 +20,9 @@ export class NesPage extends Component {
                     <li> Metroid</li>
                     <img src={require('../images/Mario1.png')} alt="Mario1 pic" />
                     <li> Super Mario Bros. </li>
-                    <img src={require('../images/MTPO.jpg')} alt="MTPO pic" />
+                    <img src={require('../images/MTPObox.jpg')} alt="MTPO pic" />
                     <li> Mike Tyson's PunchOut</li>
+                    <img src={require('../images/TSBbox.jpg')} alt="Tecmo pic" />
                     <li> Tecmo Super Bowl</li>
                 </ol>
 
