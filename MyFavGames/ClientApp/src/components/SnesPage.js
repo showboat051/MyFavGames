@@ -11,12 +11,19 @@ export class SnesPage extends Component {
                 <h1> The SNES was great! </h1>
                 <h2> Here are the main games for this console </h2>
                 <ol>
-                    <li>Super Mario Bros. 3 </li>
-                    <li>The Legend of Zelda </li>
-                    <li> Metroid</li>
-                    <li> Super Mario Bros. </li>
-                    <li> Mike Tyson's PunchOut</li>
-                    <li> Tecmo Super Bowl</li>
+                    <img src={require('../images/MarioWorld.png')} alt="MarioWorld pic" />
+                    <li>Super Mario World </li>
+                    <img src={require('../images/ZeldaSnes.jpg')} alt="ZeldaSnes pic" />
+                    <li>The Legend of Zelda: A Link to the Past </li>
+                    <img src={require('../images/superMetroid.jpg')} alt="SuperMetroid pic" />
+                    <li> Super Metroid</li>
+                    <img src={require('../images/DKC.jpg')} alt="DKC pic" />
+                    <li> Donkey Kong Country </li>
+
+                    <img src={require('../images/Superpunchoutbox.jpg')} alt="SPO pic" />
+                    <li> Super PunchOut</li>
+                    <img src={require('../images/marioKart.jpg')} alt="MarioKart pic" />
+                    <li> Super Mario Kart</li>
                 </ol>
 
             </div>
