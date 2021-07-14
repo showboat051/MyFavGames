@@ -1,4 +1,5 @@
 ﻿import React, { Component } from 'react';
+import './SNESpage.css';
 /*import { Link } from 'react-router-dom';
 */
 
@@ -8,6 +9,7 @@ export class SnesPage extends Component {
     render() {
         return (
             <div>
+                
                 <h1> The SNES was great! </h1>
                 <h2> Here are the main games for this console </h2>
                 <ol>
