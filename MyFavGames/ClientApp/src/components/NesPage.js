@@ -8,8 +8,8 @@ export class NesPage extends Component {
     render() {
         return (
             <div>
-                <h1 id = "test"> The NES was great! </h1>
-                <h2> Here are the main games for this console </h2>
+                <h1 id = "test"> The NES was great and where it all started for me! </h1>
+                <h2> Here are my favorite games for this console </h2>
                 <ol>
 
                     <img src={require('../images/SMB3.png')} alt="Mario3 pic" />
