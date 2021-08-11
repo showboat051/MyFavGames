@@ -3,6 +3,7 @@ import Nes from './Nes';
 import { Link } from 'react-router-dom';
 import Snes from './Snes';
 import SearchBar from './SearchBar';
+import N64 from './N64';
 
 
 export class HomePage extends Component {
@@ -21,7 +22,7 @@ export class HomePage extends Component {
                             <th><Snes />
                                 <Link to="./SnesPage">Super Nintendo Entertainment System (1991) </Link> </th>
                             <th><N64 />
-                                <Link to="./N64Page">Nintendo 64 (1996) </Link> </th>
+                                <Link to="./N64page">Nintendo 64 (1996) </Link> </th>
                         </tr>
                
                 
