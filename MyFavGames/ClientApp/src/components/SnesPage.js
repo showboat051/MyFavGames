@@ -1,21 +1,17 @@
 ﻿import React, { Component } from 'react';
-import { Helmet } from "react-helmet";
-/*import './SNESpage.css';*/
+/*import { Helmet } from "react-helmet";
+*//*import './SNESpage.css';*/
 import { Link } from 'react-router-dom';
 
 const css = require('./SNESpage.css').toString();
 
 export class SnesPage extends Component {
-    static displayName = SnesPage.name;
-
+/*    static displayName = SnesPage.name;
+*/
     render() {
         return (
             <div>
-                <Helmet>
-                    <style>
-                        {css}
-                    </style>
-                </Helmet>
+                
                 
                 <h1> The SNES was great! </h1>
                 <h2> Here are the main games for this console </h2>

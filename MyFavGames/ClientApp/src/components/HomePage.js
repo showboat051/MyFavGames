@@ -19,10 +19,19 @@ export class HomePage extends Component {
                         <tr>
                             <th> <Nes />
                                 <Link to="./NesPage"> Nintendo Entertainment System (1985) </Link> </th>
+
                             <th><Snes />
                                 <Link to="./SnesPage">Super Nintendo Entertainment System (1991) </Link> </th>
+
                             <th><N64 />
                                 <Link to="./N64page">Nintendo 64 (1996) </Link> </th>
+
+                           
+                        </tr>
+
+                        <tr>
+                            <th> Test
+                                <Link to="./TestingPage"> THe Test Page </Link> </th>
                         </tr>
                
                 
